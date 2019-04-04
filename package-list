@@ -4,12 +4,14 @@ me.glaremasters.guilds.api
 me.glaremasters.guilds.api.events
 me.glaremasters.guilds.api.events.base
 me.glaremasters.guilds.commands
+me.glaremasters.guilds.commands.codes
 me.glaremasters.guilds.configuration
 me.glaremasters.guilds.configuration.sections
 me.glaremasters.guilds.contexts
 me.glaremasters.guilds.database
 me.glaremasters.guilds.database.migration
 me.glaremasters.guilds.database.providers
+me.glaremasters.guilds.exceptions
 me.glaremasters.guilds.guild
 me.glaremasters.guilds.listeners
 me.glaremasters.guilds.utils
