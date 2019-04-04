@@ -4,6 +4,7 @@ me.glaremasters.guilds.api
 me.glaremasters.guilds.api.events
 me.glaremasters.guilds.api.events.base
 me.glaremasters.guilds.commands
+me.glaremasters.guilds.commands.bank
 me.glaremasters.guilds.commands.codes
 me.glaremasters.guilds.configuration
 me.glaremasters.guilds.configuration.sections
