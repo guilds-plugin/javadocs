@@ -14,7 +14,6 @@ me.glaremasters.guilds.commands.homes
 me.glaremasters.guilds.commands.roles
 me.glaremasters.guilds.configuration
 me.glaremasters.guilds.configuration.sections
-me.glaremasters.guilds.contexts
 me.glaremasters.guilds.database
 me.glaremasters.guilds.database.migration
 me.glaremasters.guilds.database.providers
