@@ -20,4 +20,7 @@ me.glaremasters.guilds.database.providers
 me.glaremasters.guilds.exceptions
 me.glaremasters.guilds.guild
 me.glaremasters.guilds.listeners
+me.glaremasters.guilds.messages
+me.glaremasters.guilds.placeholders
+me.glaremasters.guilds.updater
 me.glaremasters.guilds.utils
