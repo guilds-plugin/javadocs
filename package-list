@@ -11,7 +11,8 @@ me.glaremasters.guilds.commands.bank
 me.glaremasters.guilds.commands.claims
 me.glaremasters.guilds.commands.codes
 me.glaremasters.guilds.commands.homes
-me.glaremasters.guilds.commands.roles
+me.glaremasters.guilds.commands.management
+me.glaremasters.guilds.commands.member
 me.glaremasters.guilds.configuration
 me.glaremasters.guilds.configuration.sections
 me.glaremasters.guilds.database
