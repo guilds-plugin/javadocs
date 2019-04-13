@@ -21,6 +21,7 @@ me.glaremasters.guilds.database.migration
 me.glaremasters.guilds.database.providers
 me.glaremasters.guilds.exceptions
 me.glaremasters.guilds.guild
+me.glaremasters.guilds.guis
 me.glaremasters.guilds.listeners
 me.glaremasters.guilds.messages
 me.glaremasters.guilds.placeholders
