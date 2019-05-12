@@ -18,7 +18,6 @@ me.glaremasters.guilds.commands.member
 me.glaremasters.guilds.configuration
 me.glaremasters.guilds.configuration.sections
 me.glaremasters.guilds.database
-me.glaremasters.guilds.database.migration
 me.glaremasters.guilds.database.providers
 me.glaremasters.guilds.exceptions
 me.glaremasters.guilds.guild
