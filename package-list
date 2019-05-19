@@ -17,7 +17,9 @@ me.glaremasters.guilds.commands.management
 me.glaremasters.guilds.commands.member
 me.glaremasters.guilds.configuration
 me.glaremasters.guilds.configuration.sections
+me.glaremasters.guilds.cooldowns
 me.glaremasters.guilds.database
+me.glaremasters.guilds.database.cooldowns
 me.glaremasters.guilds.database.providers
 me.glaremasters.guilds.dependency
 me.glaremasters.guilds.exceptions
