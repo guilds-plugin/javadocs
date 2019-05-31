@@ -7,6 +7,11 @@ me.glaremasters.guilds.api.events.base
 me.glaremasters.guilds.commands
 me.glaremasters.guilds.commands.actions
 me.glaremasters.guilds.commands.admin
+me.glaremasters.guilds.commands.admin.bank
+me.glaremasters.guilds.commands.admin.homes
+me.glaremasters.guilds.commands.admin.manage
+me.glaremasters.guilds.commands.admin.member
+me.glaremasters.guilds.commands.admin.motd
 me.glaremasters.guilds.commands.ally
 me.glaremasters.guilds.commands.bank
 me.glaremasters.guilds.commands.claims
