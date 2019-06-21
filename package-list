@@ -27,7 +27,6 @@ me.glaremasters.guilds.cooldowns
 me.glaremasters.guilds.database
 me.glaremasters.guilds.database.cooldowns
 me.glaremasters.guilds.database.providers
-me.glaremasters.guilds.dependency
 me.glaremasters.guilds.exceptions
 me.glaremasters.guilds.guild
 me.glaremasters.guilds.guis
