@@ -22,6 +22,7 @@ me.glaremasters.guilds.commands.ally
 me.glaremasters.guilds.commands.bank
 me.glaremasters.guilds.commands.claims
 me.glaremasters.guilds.commands.codes
+me.glaremasters.guilds.commands.console
 me.glaremasters.guilds.commands.gui
 me.glaremasters.guilds.commands.homes
 me.glaremasters.guilds.commands.management
