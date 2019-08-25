@@ -34,9 +34,13 @@ me.glaremasters.guilds.configuration.sections
 me.glaremasters.guilds.cooldowns
 me.glaremasters.guilds.database
 me.glaremasters.guilds.database.arenas
+me.glaremasters.guilds.database.arenas.provider
 me.glaremasters.guilds.database.challenges
+me.glaremasters.guilds.database.challenges.provider
 me.glaremasters.guilds.database.cooldowns
-me.glaremasters.guilds.database.providers
+me.glaremasters.guilds.database.cooldowns.provider
+me.glaremasters.guilds.database.guild
+me.glaremasters.guilds.database.guild.provider
 me.glaremasters.guilds.dependency
 me.glaremasters.guilds.exceptions
 me.glaremasters.guilds.guild
