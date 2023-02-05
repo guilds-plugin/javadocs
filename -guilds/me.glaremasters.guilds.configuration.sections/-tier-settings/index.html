@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>TierSettings</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>Guilds</span>
+            </a>
+    </div>
+    <div>
+3.5.6.9-SNAPSHOT    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="Guilds::me.glaremasters.guilds.configuration.sections/TierSettings///PointingToDeclaration//769193423">
+  <div class="breadcrumbs"><a href="../../../index.html">Guilds</a><span class="delimiter">/</span><a href="../index.html">me.glaremasters.guilds.configuration.sections</a><span class="delimiter">/</span><span class="current">TierSettings</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Tier</span><wbr></wbr><span><span>Settings</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">class </span><a href="index.html">TierSettings</a> : <span data-unresolved-link="ch.jalu.configme/SettingsHolder///PointingToDeclaration/">SettingsHolder</span><span class="clearfix"><span class="floating-right">(<a href="https://github.com/guilds-plugin/Guilds/tree/master/src/main/java/me/glaremasters/guilds/configuration/sections/TierSettings.java#L36">source</a>)</span></span></div><p class="paragraph">Created by GlareMasters Date: 1/17/2019 Time: 2:29 PM</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="-708628056%2FFunctions%2F769193423" anchor-label="registerComments" id="-708628056%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="register-comments.html"><span>register</span><wbr></wbr><span><span>Comments</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-708628056%2FFunctions%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="register-comments.html"><span class="token function">registerComments</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">conf<span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.configurationdata/CommentsConfiguration///PointingToDeclaration/">CommentsConfiguration</span></span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="-2016628561%2FProperties%2F769193423" anchor-label="ONE_BUFFS" id="-2016628561%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-o-n-e_-b-u-f-f-s.html"><span><span>ONE_BUFFS</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2016628561%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-2016628561%2FProperties%2F769193423" anchor-label="ONE_BUFFS" id="-2016628561%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-o-n-e_-b-u-f-f-s.html">ONE_BUFFS</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html">Boolean</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1691003138%2FProperties%2F769193423" anchor-label="ONE_COST" id="-1691003138%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-o-n-e_-c-o-s-t.html"><span><span>ONE_COST</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1691003138%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-1691003138%2FProperties%2F769193423" anchor-label="ONE_COST" id="-1691003138%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-o-n-e_-c-o-s-t.html">ONE_COST</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html">Double</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1404638748%2FProperties%2F769193423" anchor-label="ONE_DAMAGE" id="1404638748%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-o-n-e_-d-a-m-a-g-e.html"><span><span>ONE_DAMAGE</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1404638748%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="1404638748%2FProperties%2F769193423" anchor-label="ONE_DAMAGE" id="1404638748%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-o-n-e_-d-a-m-a-g-e.html">ONE_DAMAGE</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html">Double</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1067762645%2FProperties%2F769193423" anchor-label="ONE_LEVEL" id="-1067762645%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-o-n-e_-l-e-v-e-l.html"><span><span>ONE_LEVEL</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1067762645%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-1067762645%2FProperties%2F769193423" anchor-label="ONE_LEVEL" id="-1067762645%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-o-n-e_-l-e-v-e-l.html">ONE_LEVEL</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html">Integer</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1163690970%2FProperties%2F769193423" anchor-label="ONE_MAX_ALLIES" id="1163690970%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-o-n-e_-m-a-x_-a-l-l-i-e-s.html"><span><span>ONE_MAX_ALLIES</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1163690970%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="1163690970%2FProperties%2F769193423" anchor-label="ONE_MAX_ALLIES" id="1163690970%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-o-n-e_-m-a-x_-a-l-l-i-e-s.html">ONE_MAX_ALLIES</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html">Integer</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="931344052%2FProperties%2F769193423" anchor-label="ONE_MAX_BANK" id="931344052%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-o-n-e_-m-a-x_-b-a-n-k.html"><span><span>ONE_MAX_BANK</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="931344052%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="931344052%2FProperties%2F769193423" anchor-label="ONE_MAX_BANK" id="931344052%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-o-n-e_-m-a-x_-b-a-n-k.html">ONE_MAX_BANK</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html">Double</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-25781679%2FProperties%2F769193423" anchor-label="ONE_MAX_MEMBERS" id="-25781679%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-o-n-e_-m-a-x_-m-e-m-b-e-r-s.html"><span><span>ONE_MAX_MEMBERS</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-25781679%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-25781679%2FProperties%2F769193423" anchor-label="ONE_MAX_MEMBERS" id="-25781679%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-o-n-e_-m-a-x_-m-e-m-b-e-r-s.html">ONE_MAX_MEMBERS</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html">Integer</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="751875440%2FProperties%2F769193423" anchor-label="ONE_MEMBERS_REQUIRE" id="751875440%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-o-n-e_-m-e-m-b-e-r-s_-r-e-q-u-i-r-e.html"><span><span>ONE_MEMBERS_REQUIRE</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="751875440%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="751875440%2FProperties%2F769193423" anchor-label="ONE_MEMBERS_REQUIRE" id="751875440%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-o-n-e_-m-e-m-b-e-r-s_-r-e-q-u-i-r-e.html">ONE_MEMBERS_REQUIRE</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html">Integer</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1624734545%2FProperties%2F769193423" anchor-label="ONE_MOB" id="-1624734545%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-o-n-e_-m-o-b.html"><span><span>ONE_MOB</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1624734545%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-1624734545%2FProperties%2F769193423" anchor-label="ONE_MOB" id="-1624734545%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-o-n-e_-m-o-b.html">ONE_MOB</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html">Double</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1030521344%2FProperties%2F769193423" anchor-label="ONE_NAME" id="-1030521344%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-o-n-e_-n-a-m-e.html"><span><span>ONE_NAME</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1030521344%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-1030521344%2FProperties%2F769193423" anchor-label="ONE_NAME" id="-1030521344%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-o-n-e_-n-a-m-e.html">ONE_NAME</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-683435764%2FProperties%2F769193423" anchor-label="ONE_PERMS" id="-683435764%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-o-n-e_-p-e-r-m-s.html"><span><span>ONE_PERMS</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-683435764%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-683435764%2FProperties%2F769193423" anchor-label="ONE_PERMS" id="-683435764%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-o-n-e_-p-e-r-m-s.html">ONE_PERMS</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html">List</a><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1967999834%2FProperties%2F769193423" anchor-label="ONE_VAULT_AMOUNT" id="-1967999834%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-o-n-e_-v-a-u-l-t_-a-m-o-u-n-t.html"><span><span>ONE_VAULT_AMOUNT</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1967999834%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-1967999834%2FProperties%2F769193423" anchor-label="ONE_VAULT_AMOUNT" id="-1967999834%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-o-n-e_-v-a-u-l-t_-a-m-o-u-n-t.html">ONE_VAULT_AMOUNT</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html">Integer</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-348117961%2FProperties%2F769193423" anchor-label="THREE_BUFFS" id="-348117961%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-h-r-e-e_-b-u-f-f-s.html"><span><span>THREE_BUFFS</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-348117961%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-348117961%2FProperties%2F769193423" anchor-label="THREE_BUFFS" id="-348117961%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-h-r-e-e_-b-u-f-f-s.html">THREE_BUFFS</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html">Boolean</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-113159562%2FProperties%2F769193423" anchor-label="THREE_COST" id="-113159562%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-h-r-e-e_-c-o-s-t.html"><span><span>THREE_COST</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-113159562%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-113159562%2FProperties%2F769193423" anchor-label="THREE_COST" id="-113159562%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-h-r-e-e_-c-o-s-t.html">THREE_COST</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html">Double</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1588859796%2FProperties%2F769193423" anchor-label="THREE_DAMAGE" id="1588859796%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-h-r-e-e_-d-a-m-a-g-e.html"><span><span>THREE_DAMAGE</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1588859796%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="1588859796%2FProperties%2F769193423" anchor-label="THREE_DAMAGE" id="1588859796%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-h-r-e-e_-d-a-m-a-g-e.html">THREE_DAMAGE</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html">Double</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="600747955%2FProperties%2F769193423" anchor-label="THREE_LEVEL" id="600747955%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-h-r-e-e_-l-e-v-e-l.html"><span><span>THREE_LEVEL</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="600747955%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="600747955%2FProperties%2F769193423" anchor-label="THREE_LEVEL" id="600747955%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-h-r-e-e_-l-e-v-e-l.html">THREE_LEVEL</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html">Integer</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="925631826%2FProperties%2F769193423" anchor-label="THREE_MAX_ALLIES" id="925631826%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-h-r-e-e_-m-a-x_-a-l-l-i-e-s.html"><span><span>THREE_MAX_ALLIES</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="925631826%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="925631826%2FProperties%2F769193423" anchor-label="THREE_MAX_ALLIES" id="925631826%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-h-r-e-e_-m-a-x_-a-l-l-i-e-s.html">THREE_MAX_ALLIES</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html">Integer</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1874112044%2FProperties%2F769193423" anchor-label="THREE_MAX_BANK" id="1874112044%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-h-r-e-e_-m-a-x_-b-a-n-k.html"><span><span>THREE_MAX_BANK</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1874112044%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="1874112044%2FProperties%2F769193423" anchor-label="THREE_MAX_BANK" id="1874112044%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-h-r-e-e_-m-a-x_-b-a-n-k.html">THREE_MAX_BANK</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html">Double</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1184319449%2FProperties%2F769193423" anchor-label="THREE_MAX_MEMBERS" id="1184319449%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-h-r-e-e_-m-a-x_-m-e-m-b-e-r-s.html"><span><span>THREE_MAX_MEMBERS</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1184319449%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="1184319449%2FProperties%2F769193423" anchor-label="THREE_MAX_MEMBERS" id="1184319449%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-h-r-e-e_-m-a-x_-m-e-m-b-e-r-s.html">THREE_MAX_MEMBERS</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html">Integer</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-229679368%2FProperties%2F769193423" anchor-label="THREE_MEMBERS_REQUIRE" id="-229679368%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-h-r-e-e_-m-e-m-b-e-r-s_-r-e-q-u-i-r-e.html"><span><span>THREE_MEMBERS_REQUIRE</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-229679368%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-229679368%2FProperties%2F769193423" anchor-label="THREE_MEMBERS_REQUIRE" id="-229679368%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-h-r-e-e_-m-e-m-b-e-r-s_-r-e-q-u-i-r-e.html">THREE_MEMBERS_REQUIRE</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html">Integer</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1435289033%2FProperties%2F769193423" anchor-label="THREE_MOB" id="-1435289033%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-h-r-e-e_-m-o-b.html"><span><span>THREE_MOB</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1435289033%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-1435289033%2FProperties%2F769193423" anchor-label="THREE_MOB" id="-1435289033%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-h-r-e-e_-m-o-b.html">THREE_MOB</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html">Double</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="547322232%2FProperties%2F769193423" anchor-label="THREE_NAME" id="547322232%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-h-r-e-e_-n-a-m-e.html"><span><span>THREE_NAME</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="547322232%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="547322232%2FProperties%2F769193423" anchor-label="THREE_NAME" id="547322232%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-h-r-e-e_-n-a-m-e.html">THREE_NAME</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="985074836%2FProperties%2F769193423" anchor-label="THREE_PERMS" id="985074836%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-h-r-e-e_-p-e-r-m-s.html"><span><span>THREE_PERMS</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="985074836%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="985074836%2FProperties%2F769193423" anchor-label="THREE_PERMS" id="985074836%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-h-r-e-e_-p-e-r-m-s.html">THREE_PERMS</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html">List</a><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1185396766%2FProperties%2F769193423" anchor-label="THREE_VAULT_AMOUNT" id="1185396766%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-h-r-e-e_-v-a-u-l-t_-a-m-o-u-n-t.html"><span><span>THREE_VAULT_AMOUNT</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1185396766%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="1185396766%2FProperties%2F769193423" anchor-label="THREE_VAULT_AMOUNT" id="1185396766%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-h-r-e-e_-v-a-u-l-t_-a-m-o-u-n-t.html">THREE_VAULT_AMOUNT</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html">Integer</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2011406345%2FProperties%2F769193423" anchor-label="TWO_BUFFS" id="2011406345%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-w-o_-b-u-f-f-s.html"><span><span>TWO_BUFFS</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2011406345%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="2011406345%2FProperties%2F769193423" anchor-label="TWO_BUFFS" id="2011406345%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-w-o_-b-u-f-f-s.html">TWO_BUFFS</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html">Boolean</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1422519196%2FProperties%2F769193423" anchor-label="TWO_COST" id="-1422519196%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-w-o_-c-o-s-t.html"><span><span>TWO_COST</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1422519196%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-1422519196%2FProperties%2F769193423" anchor-label="TWO_COST" id="-1422519196%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-w-o_-c-o-s-t.html">TWO_COST</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html">Double</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1719669250%2FProperties%2F769193423" anchor-label="TWO_DAMAGE" id="1719669250%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-w-o_-d-a-m-a-g-e.html"><span><span>TWO_DAMAGE</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1719669250%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="1719669250%2FProperties%2F769193423" anchor-label="TWO_DAMAGE" id="1719669250%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-w-o_-d-a-m-a-g-e.html">TWO_DAMAGE</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html">Double</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1334695035%2FProperties%2F769193423" anchor-label="TWO_LEVEL" id="-1334695035%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-w-o_-l-e-v-e-l.html"><span><span>TWO_LEVEL</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1334695035%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-1334695035%2FProperties%2F769193423" anchor-label="TWO_LEVEL" id="-1334695035%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-w-o_-l-e-v-e-l.html">TWO_LEVEL</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html">Integer</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1658264768%2FProperties%2F769193423" anchor-label="TWO_MAX_ALLIES" id="1658264768%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-w-o_-m-a-x_-a-l-l-i-e-s.html"><span><span>TWO_MAX_ALLIES</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1658264768%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="1658264768%2FProperties%2F769193423" anchor-label="TWO_MAX_ALLIES" id="1658264768%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-w-o_-m-a-x_-a-l-l-i-e-s.html">TWO_MAX_ALLIES</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html">Integer</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1267021542%2FProperties%2F769193423" anchor-label="TWO_MAX_BANK" id="-1267021542%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-w-o_-m-a-x_-b-a-n-k.html"><span><span>TWO_MAX_BANK</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1267021542%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-1267021542%2FProperties%2F769193423" anchor-label="TWO_MAX_BANK" id="-1267021542%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-w-o_-m-a-x_-b-a-n-k.html">TWO_MAX_BANK</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html">Double</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1873863125%2FProperties%2F769193423" anchor-label="TWO_MAX_MEMBERS" id="-1873863125%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-w-o_-m-a-x_-m-e-m-b-e-r-s.html"><span><span>TWO_MAX_MEMBERS</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1873863125%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-1873863125%2FProperties%2F769193423" anchor-label="TWO_MAX_MEMBERS" id="-1873863125%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-w-o_-m-a-x_-m-e-m-b-e-r-s.html">TWO_MAX_MEMBERS</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html">Integer</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1420803146%2FProperties%2F769193423" anchor-label="TWO_MEMBERS_REQUIRE" id="1420803146%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-w-o_-m-e-m-b-e-r-s_-r-e-q-u-i-r-e.html"><span><span>TWO_MEMBERS_REQUIRE</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1420803146%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="1420803146%2FProperties%2F769193423" anchor-label="TWO_MEMBERS_REQUIRE" id="1420803146%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-w-o_-m-e-m-b-e-r-s_-r-e-q-u-i-r-e.html">TWO_MEMBERS_REQUIRE</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html">Integer</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="185041545%2FProperties%2F769193423" anchor-label="TWO_MOB" id="185041545%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-w-o_-m-o-b.html"><span><span>TWO_MOB</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="185041545%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="185041545%2FProperties%2F769193423" anchor-label="TWO_MOB" id="185041545%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-w-o_-m-o-b.html">TWO_MOB</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html">Double</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-762037402%2FProperties%2F769193423" anchor-label="TWO_NAME" id="-762037402%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-w-o_-n-a-m-e.html"><span><span>TWO_NAME</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-762037402%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-762037402%2FProperties%2F769193423" anchor-label="TWO_NAME" id="-762037402%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-w-o_-n-a-m-e.html">TWO_NAME</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-950368154%2FProperties%2F769193423" anchor-label="TWO_PERMS" id="-950368154%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-w-o_-p-e-r-m-s.html"><span><span>TWO_PERMS</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-950368154%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="-950368154%2FProperties%2F769193423" anchor-label="TWO_PERMS" id="-950368154%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-w-o_-p-e-r-m-s.html">TWO_PERMS</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html">List</a><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="871017484%2FProperties%2F769193423" anchor-label="TWO_VAULT_AMOUNT" id="871017484%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-t-w-o_-v-a-u-l-t_-a-m-o-u-n-t.html"><span><span>TWO_VAULT_AMOUNT</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="871017484%2FProperties%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="871017484%2FProperties%2F769193423" anchor-label="TWO_VAULT_AMOUNT" id="871017484%2FProperties%2F769193423" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="-t-w-o_-v-a-u-l-t_-a-m-o-u-n-t.html">TWO_VAULT_AMOUNT</a><span class="token operator">: </span><span data-unresolved-link="ch.jalu.configme.properties/Property///PointingToDeclaration/">Property</span><span class="token operator">&lt;</span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html">Integer</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

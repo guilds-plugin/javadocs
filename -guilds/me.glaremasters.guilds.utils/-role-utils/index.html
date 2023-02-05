@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>RoleUtils</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>Guilds</span>
+            </a>
+    </div>
+    <div>
+3.5.6.9-SNAPSHOT    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="Guilds::me.glaremasters.guilds.utils/RoleUtils///PointingToDeclaration//769193423">
+  <div class="breadcrumbs"><a href="../../../index.html">Guilds</a><span class="delimiter">/</span><a href="../index.html">me.glaremasters.guilds.utils</a><span class="delimiter">/</span><span class="current">RoleUtils</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Role</span><wbr></wbr><span><span>Utils</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">class </span><a href="index.html">RoleUtils</a><span class="clearfix"><span class="floating-right">(<a href="https://github.com/guilds-plugin/Guilds/tree/master/src/main/java/me/glaremasters/guilds/utils/RoleUtils.java#L32">source</a>)</span></span></div><p class="paragraph">Created by Glare Date: 4/4/2019 Time: 11:35 PM</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="-1308176578%2FFunctions%2F769193423" anchor-label="canPromote" id="-1308176578%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="can-promote.html"><span>can</span><wbr></wbr><span><span>Promote</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1308176578%2FFunctions%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="can-promote.html"><span class="token function">canPromote</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">guild<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild/index.html">Guild</a><span class="token punctuation">, </span></span><span class="parameter ">player<span class="token operator">: </span><span data-unresolved-link="org.bukkit/OfflinePlayer///PointingToDeclaration/">OfflinePlayer</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief ">Simple method to check if the player being promote can be promoted</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="391007803%2FFunctions%2F769193423" anchor-label="checkPromote" id="391007803%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="check-promote.html"><span>check</span><wbr></wbr><span><span>Promote</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="391007803%2FFunctions%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="check-promote.html"><span class="token function">checkPromote</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">guild<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild/index.html">Guild</a><span class="token punctuation">, </span></span><span class="parameter ">target<span class="token operator">: </span><span data-unresolved-link="org.bukkit/OfflinePlayer///PointingToDeclaration/">OfflinePlayer</span><span class="token punctuation">, </span></span><span class="parameter ">player<span class="token operator">: </span><span data-unresolved-link="org.bukkit/OfflinePlayer///PointingToDeclaration/">OfflinePlayer</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief ">Check if you a user can promote another user</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-862029701%2FFunctions%2F769193423" anchor-label="demote" id="-862029701%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="demote.html"><span><span>demote</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-862029701%2FFunctions%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="demote.html"><span class="token function">demote</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">guildHandler<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild-handler/index.html">GuildHandler</a><span class="token punctuation">, </span></span><span class="parameter ">guild<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild/index.html">Guild</a><span class="token punctuation">, </span></span><span class="parameter ">player<span class="token operator">: </span><span data-unresolved-link="org.bukkit/OfflinePlayer///PointingToDeclaration/">OfflinePlayer</span></span></span><span class="token punctuation">)</span></div><div class="brief ">Demote a player</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1245083765%2FFunctions%2F769193423" anchor-label="getCurrentRoleName" id="1245083765%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-current-role-name.html"><span>get</span><wbr></wbr><span>Current</span><wbr></wbr><span>Role</span><wbr></wbr><span><span>Name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1245083765%2FFunctions%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-current-role-name.html"><span class="token function">getCurrentRoleName</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">member<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild-member/index.html">GuildMember</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a></div><div class="brief ">Get the name of the role</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="188386960%2FFunctions%2F769193423" anchor-label="getPreDemotedRoleName" id="188386960%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-pre-demoted-role-name.html"><span>get</span><wbr></wbr><span>Pre</span><wbr></wbr><span>Demoted</span><wbr></wbr><span>Role</span><wbr></wbr><span><span>Name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="188386960%2FFunctions%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-pre-demoted-role-name.html"><span class="token function">getPreDemotedRoleName</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">guildHandler<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild-handler/index.html">GuildHandler</a><span class="token punctuation">, </span></span><span class="parameter ">member<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild-member/index.html">GuildMember</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a></div><div class="brief ">Get the role of a user before they were demoted</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-156811026%2FFunctions%2F769193423" anchor-label="getPrePromotedRoleName" id="-156811026%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-pre-promoted-role-name.html"><span>get</span><wbr></wbr><span>Pre</span><wbr></wbr><span>Promoted</span><wbr></wbr><span>Role</span><wbr></wbr><span><span>Name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-156811026%2FFunctions%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-pre-promoted-role-name.html"><span class="token function">getPrePromotedRoleName</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">guildHandler<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild-handler/index.html">GuildHandler</a><span class="token punctuation">, </span></span><span class="parameter ">member<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild-member/index.html">GuildMember</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a></div><div class="brief ">Get the role of a user before they were promoted</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1180318568%2FFunctions%2F769193423" anchor-label="inGuild" id="1180318568%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="in-guild.html"><span>in</span><wbr></wbr><span><span>Guild</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1180318568%2FFunctions%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="in-guild.html"><span class="token function">inGuild</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">guild<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild/index.html">Guild</a><span class="token punctuation">, </span></span><span class="parameter ">player<span class="token operator">: </span><span data-unresolved-link="org.bukkit/OfflinePlayer///PointingToDeclaration/">OfflinePlayer</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief ">Simple method to check if a user is in the same guild</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="950315151%2FFunctions%2F769193423" anchor-label="isLower" id="950315151%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="is-lower.html"><span>is</span><wbr></wbr><span><span>Lower</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="950315151%2FFunctions%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="is-lower.html"><span class="token function">isLower</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">target<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild-member/index.html">GuildMember</a><span class="token punctuation">, </span></span><span class="parameter ">member<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild-member/index.html">GuildMember</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief ">Check if a players role is higher than another</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-541312988%2FFunctions%2F769193423" anchor-label="isLowest" id="-541312988%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="is-lowest.html"><span>is</span><wbr></wbr><span><span>Lowest</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-541312988%2FFunctions%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="is-lowest.html"><span class="token function">isLowest</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">guildHandler<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild-handler/index.html">GuildHandler</a><span class="token punctuation">, </span></span><span class="parameter ">member<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild-member/index.html">GuildMember</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief ">Check if role is lowest role</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1639723578%2FFunctions%2F769193423" anchor-label="isOfficer" id="-1639723578%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="is-officer.html"><span>is</span><wbr></wbr><span><span>Officer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1639723578%2FFunctions%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="is-officer.html"><span class="token function">isOfficer</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">guild<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild/index.html">Guild</a><span class="token punctuation">, </span></span><span class="parameter ">player<span class="token operator">: </span><span data-unresolved-link="org.bukkit/OfflinePlayer///PointingToDeclaration/">OfflinePlayer</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief ">Check if player is officer or not</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1913933523%2FFunctions%2F769193423" anchor-label="promote" id="1913933523%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="promote.html"><span><span>promote</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1913933523%2FFunctions%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="promote.html"><span class="token function">promote</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">guildHandler<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild-handler/index.html">GuildHandler</a><span class="token punctuation">, </span></span><span class="parameter ">guild<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild/index.html">Guild</a><span class="token punctuation">, </span></span><span class="parameter ">player<span class="token operator">: </span><span data-unresolved-link="org.bukkit/OfflinePlayer///PointingToDeclaration/">OfflinePlayer</span></span></span><span class="token punctuation">)</span></div><div class="brief ">Simple method to promote a user</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1392116567%2FFunctions%2F769193423" anchor-label="sameRole" id="1392116567%2FFunctions%2F769193423" data-filterable-set=":dokkaHtml/main"></a>
+        <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="same-role.html"><span>same</span><wbr></wbr><span><span>Role</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1392116567%2FFunctions%2F769193423"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="same-role.html"><span class="token function">sameRole</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">guild<span class="token operator">: </span><a href="../../me.glaremasters.guilds.guild/-guild/index.html">Guild</a><span class="token punctuation">, </span></span><span class="parameter ">player<span class="token operator">: </span><span data-unresolved-link="org.bukkit/OfflinePlayer///PointingToDeclaration/">OfflinePlayer</span><span class="token punctuation">, </span></span><span class="parameter ">target<span class="token operator">: </span><span data-unresolved-link="org.bukkit/OfflinePlayer///PointingToDeclaration/">OfflinePlayer</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief ">Check if two users have the same role</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
